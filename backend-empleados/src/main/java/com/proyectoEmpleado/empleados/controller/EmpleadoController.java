@@ -17,7 +17,7 @@ import java.util.List;
 @CrossOrigin("*")
 public class EmpleadoController {
 
-    private final EmpleadoService empleadoService;
+    private final EmpleadoService  empleadoService;
 
     @PostMapping("/crearempleado")
     public Empleado crearEmpleado(@RequestBody Empleado empleado){
